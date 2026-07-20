@@ -64,6 +64,6 @@ jobs:
                       .github/release-drafter-module.yml > .github/release-drafter-parsed.yml
 
             - name: Run release drafter
-              uses: release-drafter/release-drafter@c2e2804cc59f45f57076a99af580d0fedb697927 # v7
+              uses: release-drafter/release-drafter@eada3c96a64734dd381cfbda23511034e328ddb0 # v7
               with:
                   config-name: file:release-drafter-parsed.yml
